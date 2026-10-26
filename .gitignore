@@ -1,0 +1,56 @@
+# Node.js
+node_modules/
+**/node_modules/
+.next/
+.env*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.pyo
+*.pyd
+*.pyc
+venv/
+**/venv/
+env/
+**/env/
+
+# Django
+staticfiles/
+media/
+backend/media/
+backend/db.sqlite3
+local_settings.py
+
+# Hardhat/Ethereum
+contracts/artifacts/
+!contracts/artifacts/contracts/CharityPlatform.sol/CharityPlatform.json
+contracts/cache/
+contracts/build-info/
+
+# VSCode
+.vscode/
+
+# Misc
+*.swp
+*.swo
+*.css.map
+*~
